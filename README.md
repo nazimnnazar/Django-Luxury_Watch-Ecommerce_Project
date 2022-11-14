@@ -14,9 +14,11 @@
   
 </div>
 
-# 🧾 About
+#  👨‍💻 About
 A Full Stack Web created using Python & Django with full E-Commerce Functionality
 <br>
+
+#  Demo👇
  <a href="https://nazimnazar.pythonanywhere.com/"><strong>➥ Live Demo</strong></a>
 
 # ⌚ Overview
@@ -29,7 +31,7 @@ A Full Stack Web created using Python & Django with full E-Commerce Functionalit
 ### .Building an Django  Framework 
 
 
-## 🚀  Future Features
+## 🧠  Future Features
 
 - Add product to their wishlist and ability to remove it.
 - Review product and give feedback about it.
