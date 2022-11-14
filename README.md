@@ -19,7 +19,7 @@ A Full Stack Web created using Python & Django with full E-Commerce Functionalit
 <br>
  <a href="https://nazimnazar.pythonanywhere.com/"><strong>➥ Live Demo</strong></a>
 
-# Overview
+# ⌚ Overview
 ### .Djagno 
 ### .Database SQLlite
 ### .Static Files
@@ -44,3 +44,12 @@ A Full Stack Web created using Python & Django with full E-Commerce Functionalit
 - Provide Support through help center.
 - Add user's shipping address.
 - Track status of user's orders.
+<p align='center'>
+    
+  <a href="https://www.linkedin.com/in/nazim-n-nazar-94113b243/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;&nbsp;  
+</p>
+
+
+# ScreenShot
