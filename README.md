@@ -21,16 +21,13 @@ A Full Stack Web created using Python & Django with full E-Commerce Functionalit
 
 # Overview
 ### .Djagno 
-### .Database Design and Models
+### .Database SQLlite
 ### .Static Files
 ### .User Registration & Authenticaiton
 ### .Search
 ### .Pagination
 ### .Building an Django  Framework 
 
-
-
-![Aibrd8g8T](https://user-images.githubusercontent.com/112808009/201679534-132093aa-21fb-4e38-afed-024449b10c6c.gif)
 
 ## 🚀  Future Features
 
