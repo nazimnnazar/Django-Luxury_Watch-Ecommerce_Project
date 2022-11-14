@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head><title>N Products </title></head>
+<body>
+  <section id="feature" class="feature">
+    <div class="container">
+      <div class="section-header">
+        <h2>LUXURY TIMEPIECES </h2>
+      </div>
+      <div class="feature-content">
+        <div class="row">
+          {% for i in product %}
+          <div class="col-sm-3">
+            <div class="single-feature">
+              <a class="imgover" href="{{i.get_url}}">
+              <img src="{{i.img.url}}" alt="feature image"></a>
+               <div class="single-feature-txt text-center">
+                <p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
+                  <!-- <span class="feature-review">(45 review)</span> -->
+                </p>
+                <h3><a >{{i.name}}</a></h3>
+                <h5>&#x20B9;{{i.price}}</h5>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <!-- Paginator -->
+ <div class="row"> 
+		{% if product.has_other_pages %}
+			<ul class="pagination">
+         {% if product.has_previous %}
+					<li class="page-item"><a data-page="{{product.previous_page_number}}" href="?page={{product.previous_page_number}}" class="page-link">&laquo</a></li>
+					<li class="page-item"><a data-page="1" href="?page=1" class="page-link">First</a></li>
+   				{% endif %}
+          {% for i in product.paginator.page_range %}
+					{% if product.number == i %}
+					<li class="page-item"><a class="active page-link">{{i}}</a></li>
+					{% else %}
+					<li class="page-item"><a data-page="{{i}}" href="?page={{i}}" class="page-link">{{i}}</a></li>
+					{% endif %}
+				  {% endfor %}
+          {% if product.has_next %}
+          <li class="page-item"><a data-page="{{product.paginator.num_pages}}" href="?page={{product.paginator.num_pages}}" class="page-link">Last</a></li>
+          <li class="page-item"><a data-page="{{product.next_page_number}}" href="?page={{product.next_page_number}}" class="page-link">&raquo</a></li>
+         {% endif %}
+         </ul>
+        {% endif %}
+    </div>
+  </section>
+</body>
+{% endblock %}

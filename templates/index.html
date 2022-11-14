@@ -1,0 +1,247 @@
+    {% extends 'base.html' %}
+    {% load static %}
+	{% block content %}
+
+	<head>
+		<title>N Home Page</title>
+	</head>
+		<body>
+			<section class="top-course-area section-gap">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-10">
+							<div class="title text-center">
+								<h1 class="mb-10">India’s greatest collection </h1>
+								<p>of certified pre-owned luxury watches and accessories</p>
+							</div>
+						</div>
+					</div>					
+					<div class="row justify-content-center align-items-center">
+						<div class="col-lg-3 course-left">
+							<div class="single-course">
+								<span class="lnr lnr-rocket"></span>
+								<a ><h4>TITANIUM</h4></a>
+								<p>
+									Titanium is extensively used by Hublot, specifically for its lightness. It displays the best relationship between resistance and weight of any material.
+
+								</p>
+							</div>
+							<div class="single-course">
+								<span class="lnr lnr-cog"></span>
+								<a ><h4>High Performance</h4></a>
+								<p>
+									Titanium is extensively used by Hublot, specifically for its lightness. It displays the best relationship between resistance and weight of any material.
+								</p>
+							</div>							
+						</div>
+						<div class="col-lg-6 course-middle">
+							<img class="img-fluid mx-auto d-block" src="{% static 'wi/img/n2.png' %}" alt="">
+						</div>
+						<div class="col-lg-3 course-right">
+							<div class="single-course">
+								<span class="lnr lnr-apartment"></span>
+								<a><h4>High Performance</h4></a>
+								<p>
+									Titanium is extensively used by Hublot, specifically for its lightness. It displays the best relationship between resistance and weight of any material.
+								</p>
+							</div>
+							<div class="single-course">
+								<span class="lnr lnr-phone"></span>
+								<a ><h4>High Performance</h4></a>
+								<p>
+									Titanium is extensively used by Hublot, specifically for its lightness. It displays the best relationship between resistance and weight of any material.
+								</p>
+							</div>														
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- Start home-about Area -->
+			<section class="home-about-area">
+				<div class="container-fluid">				
+					<div class="row justify-content-center align-items-center">
+						<div class="col-lg-6 no-padding home-about-left">
+							<img class="img-fluid" src="{% static 'wi/img/green.jpg' %}" alt="">
+						</div>
+						<div class="col-lg-6 no-padding home-about-right">
+							<h1>UNICO 2<br>
+							by Large Network</h1>
+							<p>
+								<span>We are here to listen from you deliver exellence</span>
+							</p>
+							<p>
+								The Unico 2 caliber was designed to equip smaller chronographs and also open the world of Hublot to new enthusiasts. 
+								It retains the unique design of its former version with a double coupling system visible from the dial side as well
+								 as a 72-hour power reserve. But thanks to various technical optimizations,
+							</p>
+							<a class="text-uppercase primary-btn" href="{% url 'product' %}">get details</a>
+						</div>
+					</div>
+				</div>	
+			</section>
+
+			<section class="feature_section layout_padding">
+				<div class="container">
+				  <div class="heading_container">
+					<h2>Features Of Our Watches</h2>
+					<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				  </div>
+				  <div class="row">
+					<div class="col-sm-6 col-lg-3">
+					  <div class="box">
+						<div class="img-box">
+						  <img src="{% static 'wp/images/f1.png' %}" alt="">
+						</div>
+						<div class="detail-box">
+						  <h5>Fitness Tracking</h5>
+						  <p></p>
+						  <a href="">
+							<!-- <span>
+							  Read More
+							</span> -->
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						  </a>
+						</div>
+					  </div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+					  <div class="box">
+						<div class="img-box">
+						  <img src="{% static 'wp/images/f2.png' %}" alt="">
+						</div>
+						<div class="detail-box">
+						  <h5>Alerts & Notifications</h5>
+						  <p></p>
+						  <a href="">
+							<!-- <span>
+							  Read More
+							</span> -->
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						  </a>
+						</div>
+					  </div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+					  <div class="box">
+						<div class="img-box">
+						  <img src="{% static 'wp/images/f3.png' %}" alt="">
+						</div>
+						<div class="detail-box">
+						  <h5>Message</h5>
+						  <p></p>
+						  <a href="">
+							<!-- <span>
+							  Read More
+							</span> -->
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						  </a>
+						</div>
+					  </div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+					  <div class="box">
+						<div class="img-box">
+						  <img src="{% static 'wp/images/f4.png' %}" alt="">
+						</div>
+						<div class="detail-box">
+						  <h5>Bluetooth</h5>
+						  <p></p>
+						  <a href="">
+							<!-- <span>
+							  Read More
+							</span> -->
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						  </a>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="btn-box">
+					<a href="{% url 'product' %}">
+					  View Products
+					</a>
+				  </div>
+				</div>
+			  </section>
+
+			<!-- Start faq Area -->
+			<section class="faq-area section-gap" id="faq">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-10">
+							<div class="title text-center">
+								<h1 class="mb-10">Frequently Asked Questions</h1>
+								<p>Who are in extremely love with eco friendly system.</p>
+							</div>
+						</div>
+					</div>						
+					<div class="row justify-content-start">
+						<div class="col-lg-6 faq-left">
+							<div id="accordion">
+							  <div class="card">
+							    <div class="card-header" id="headingOne">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							          Are your like The N Brand?
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+							      <div class="card-body">
+									India’s leading platform for selling and buying certified pre-owned luxury watches,
+								</div>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <div class="card-header" id="headingTwo">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							          Does it have all the plugin as mentioned?
+							        </button>
+							      </h5>
+							    </div>
+							    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							      <div class="card-body">
+									India’s leading platform for selling and buying certified pre-owned luxury watches,
+							      </div>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <div class="card-header" id="headingThree">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							          Can i use the these theme for my client?
+							        </button>
+							      </h5>
+							    </div>
+							    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+							      <div class="card-body">
+									India’s leading platform for selling and buying certified pre-owned luxury watches,
+							      </div>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <div class="card-header" id="headingThree">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+							          N Brand  responsive?
+							        </button>
+							      </h5>
+							    </div>
+							    <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+							      <div class="card-body">
+									India’s leading platform for selling and buying certified pre-owned luxury watches,
+							      </div>
+							    </div>
+							  </div>							  
+							</div>							
+						</div>	
+					</div>
+				</div>	
+			</section>
+		
+		</body>
+
+
+	{% endblock %}
