@@ -14,7 +14,7 @@
   
 </div>
 
-#  👨‍💻 About
+#  💻 About
 A Full Stack Web created using Python & Django with full E-Commerce Functionality
 <br>
 
