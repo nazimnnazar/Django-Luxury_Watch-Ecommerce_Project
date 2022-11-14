@@ -18,3 +18,20 @@
 A Full Stack Web created using Python & Django with full E-Commerce Functionality
 <br>
  <a href="https://nazimnazar.pythonanywhere.com/"><strong>➥ Live Demo</strong></a>
+
+
+## 🚀  Future Features
+
+- Add product to their wishlist and ability to remove it.
+- Review product and give feedback about it.
+- See reviews about products from other users.
+- Add product to shopping cart and ability to remove it.
+- Register an new account, and log in as an existing user.
+- Only People with admin account can add other products.
+- Display products with details about them .
+- Search products using keyword and/or category.
+- See all products in user's shopping cart or wishlist.
+- Sign out or delete user's account.
+- Provide Support through help center.
+- Add user's shipping address.
+- Track status of user's orders.
