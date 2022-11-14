@@ -1,7 +1,7 @@
 
 <div align="center">
   
-  <h2 align="center">N Brand Luxury Watch Website⚡️</h2>
+  <h2 align="center">N Brand Luxury Watch Website⌚</h2>
 
   Fully responsive Ecommerce Website, <br />Responsive for all devices
   
