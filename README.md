@@ -13,4 +13,6 @@
 <img src="https://img.shields.io/badge/Github-181717?logo=github&logoColor=white" />
   
 </div>
- <a href="http://nazimnnazar.pythonanywhere.com/"><strong>➥ Live Demo</strong></a>
+# About🧾
+A Full Stack Web created using Python & Django with full E-Commerce Functionality
+ <a href="https://nazimnazar.pythonanywhere.com/"><strong>➥ Live Demo</strong></a>
