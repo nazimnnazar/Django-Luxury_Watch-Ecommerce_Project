@@ -3,7 +3,7 @@
   
   <h2 align="center">N Brand Luxury Watch Website⌚</h2>
 
-  Fully responsive Ecommerce Website, <br />Responsive for all devices
+  Fully responsive Ecommerce Website, <br />Responsive for all device
   
 <img src="https://img.shields.io/badge/Django-239120?logo=django&logoColor=white" />
 <img src="https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoft-sql-server&logoColor=white" />
