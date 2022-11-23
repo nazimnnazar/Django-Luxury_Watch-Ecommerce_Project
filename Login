@@ -1,0 +1,28 @@
+    <div id="registration" class="form-1 bg-dark-blue">
+        <div class="container">
+            <div class="row">       
+                <div class="center">
+                    <form id="registrationForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="rname" required>
+                            <label class="label-control" for="rname">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="roccupation" required>
+                            <label class="label-control" for="roccupation">Occupation</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="remail" required>
+                            <label class="label-control" for="remail">Email</label>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="rterms" value="Agreed-to-Terms" required>I agree with the website's <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms & Conditions</a>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">SIGN UP</button>
+                        </div>
+                    </form>
+                </div> 
+            </div> 
+       </div> 
+    </div> 
