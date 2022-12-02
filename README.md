@@ -21,7 +21,6 @@ A Full Stack Web created using Python & Django with full E-Commerce Functionalit
 
 #  Demo👇
  <a href="https://nazimnazar.pythonanywhere.com/"><strong>➥ Live Demo</strong></a>
-
 # ⌚ Overview
 ### .Djagno 
 ### .Database SQLlite
