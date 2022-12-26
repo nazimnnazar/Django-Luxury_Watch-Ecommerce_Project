@@ -37,15 +37,9 @@ A Full Stack Web created using Python & Django with full E-Commerce Functionalit
 - Review product and give feedback about it.
 - See reviews about products from other users.
 - Add product to shopping cart and ability to remove it.
-- Register an new account, and log in as an existing user.
 - Only People with admin account can add other products.
 - Display products with details about them .
 - Search products using keyword and/or category.
-- See all products in user's shopping cart or wishlist.
-- Sign out or delete user's account.
-- Provide Support through help center.
-- Add user's shipping address.
-- Track status of user's orders.
 <p align='center'>
     
   <a href="https://www.linkedin.com/in/nazim-n-nazar-94113b243/">
